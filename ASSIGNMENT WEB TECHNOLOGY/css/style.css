@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Acme', sans-serif;
+
+}
+
+.Left_part{
+  width:640px;
+  float: left;
+}
+.Right_part{
+  width: 700px;
+  float: right;
+  min-height: 500px;
+}
+.Left_part img{
+  width:640px;
+  height:660px;
+  clip-path: polygon(0 0, 0 100%, 100% 49%);
+}
+
+.LogIn{
+  width:340px;
+  float:left;
+}
+
+.LogIn h2{
+  padding:10px 0px;
+  margin-top:160px;
+}
+.LogIn h3{
+  border-bottom: 3px solid #50c9c3;
+  width: 15%;
+}
+.LogIn .input1{
+  width: 80%;
+  padding: 10px 5px;
+}
+.LogIn input{
+  margin-bottom: 5px;
+}
+
+.LogIn button{
+  width: 84%;
+  padding: 10px 5px;
+}
+.Logo{
+  float: right;
+}
+.Logo img{
+  width:360px;
+  height: 100px;
+}
+.footer{
+  margin-top: 460px;
+}
+.footer p{
+  float: left;
+  padding: 10px;
+}
